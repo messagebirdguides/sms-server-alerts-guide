@@ -182,8 +182,8 @@ Navigate your browser to http://localhost:8080/. For the successful request, you
 
 Now, open http://localhost:8080/simulateError and, along with the request error on your console and the log file, another notification will arrive at your phone.
 
-##Nice work!
+## Nice work!
 And that's it. You've learned how to log with Winston and express-winston, create a custom MessageBird transport. You can now take these elements and integrate them into a Node.js production application.
 
-##Next steps
+## Next steps
 Want to build something similar but not quite sure how to get started? Please feel free to let us know at support@messagebird.com, we'd love to help!

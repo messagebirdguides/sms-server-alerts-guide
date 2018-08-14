@@ -1,9 +1,11 @@
-## SMS Server Alerts with Node.js
-### 15 Min Build Time
+# SMS Server Alerts
+### ⏱ 30 min build time
 
-For any online service, being available and reliable is extremely important with many companies advertising guaranteed uptime of 99%+. Therefore it is essential that any errors in the system are fixed as soon as possible, and the prerequisite for that is that error reports are delivered quickly to the engineers who are on duty. Providing those error logs via SMS ensures a faster response time compared to email reports and helps companies keep their uptime promises.
+## Why build SMS server alerts? 
+ 
+For any online service advertising guaranteed uptime north of 99%, being available and reliable is extremely important. Therefore it is essential that any errors in the system are fixed as soon as possible, and the prerequisite for that is that error reports are delivered quickly to the engineers on duty. Providing those error logs via SMS ensures a faster response time compared to email reports and helps companies keep their uptime promises.
 
-In this tutorial, we demonstrate the integration of SMS alerts into a NodeJS application that uses the [Winston](https://www.npmjs.com/package/winston) logging framework.
+In this MessageBird Developer Guide, we will shouw you how to build an integration of SMS alerts into a NodeJS application that uses the [Winston](https://www.npmjs.com/package/winston) logging framework.
 
 ## Logging Primer
 
@@ -19,9 +21,9 @@ It's possible and common to set up multiple kinds of transport for the same logg
 
 The sample application is built in Node.js and uses *Winston* as the logging library. We have also included an example using [Express](https://www.npmjs.com/package/express) and [express-winston](https://www.npmjs.com/package/express-winston) (don't confuse it with _winston-express_ ...) to demonstrate web application request logging.
 
-Before we get started, make sure you have downloaded Node and npm. If not, you can download both [from npmjs.com](https://www.npmjs.com/get-npm).
+Before we get started, make sure you have downloaded Node and npm. If not, you can download both [from npmjs.com](https://www.npmjs.com/get-npm) for free.
 
-We've provided the source code in the [MessageBird Guides GitHub repository](https://github.com/messagebirdguides/sms-server-alerts-guide), so you can either clone the sample application with git or download a ZIP file with the code to your computer.
+We've provided the source code in the [MessageBird Developer Guides GitHub repository](https://github.com/messagebirdguides/sms-server-alerts-guide), so you can either clone the sample application with git or download a ZIP file with the code to your computer.
 
 To install the [MessageBird SDK for NodeJS](https://www.npmjs.com/package/messagebird) and the other dependencies mentioned above, open a console pointed at the directory into which you've saved the sample application and run the following command:
 
@@ -183,7 +185,9 @@ Navigate your browser to http://localhost:8080/. For the successful request, you
 Now, open http://localhost:8080/simulateError and, along with the request error on your console and the log file, another notification will arrive at your phone.
 
 ## Nice work!
-And that's it. You've learned how to log with Winston and express-winston, create a custom MessageBird transport. You can now take these elements and integrate them into a Node.js production application.
+
+And that's it. You've learned how to log with Winston and express-winston, create a custom MessageBird transport. You can now take these elements and integrate them into a Node.js production application. Don't forget to download the code from the [MessageBird Developer Guides GitHub repository](https://github.com/messagebirdguides/sms-server-alerts-guide).
 
 ## Next steps
+
 Want to build something similar but not quite sure how to get started? Please feel free to let us know at support@messagebird.com, we'd love to help!
